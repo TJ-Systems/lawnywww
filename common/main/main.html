@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Mow Lawn? Done.</h1>
+            <p class="lead">The modern way to get the best looking lawn in town.</p>
+        </div>
+    </div>
+
+    <div id="main_container" class="container container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="card-container">
+                    <div class="card text-white bg-secondary mx-auto mb-3" style="width: 20rem; height: 450px">
+                        <div class="card-block">
+                            <img class="card-img-top" src="../assets/images/customer_card_cap.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Property Owner</h4>
+                                <p class="card-text">You need your lawn mowed and taken care of. We'll help you find the perfect 
+                                    lawn care provider and make lawn care a snap. Sign-up Here. </p>
+                                <a href="#" class="btn btn-primary mb-2">Sign Up</a>
+                                <a href="#" class="btn btn-success mb-2">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card-container">
+                    <div class="card text-white bg-dark mx-auto mb-3" style="width: 20rem; height: 450px">
+                        <div class="card-block">
+                            <img class="card-img-top" src="../assets/images/provider_card_cap.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Lawn Care Provider</h4>
+                                <p class="card-text">You mow lawns, rake leaves, clear brush, or do nothing but dream to be the best
+                                        lawn care provider in your nieghborhood. Sign up here.</p>
+                                <a href="#" class="btn btn-primary mb-2">Sign Up</a>
+                                <a href="#" class="btn btn-success mb-2">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
